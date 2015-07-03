@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		680488521B46761200DE4AB3 /* GridentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 680488511B46761200DE4AB3 /* GridentView.m */; };
+		680488551B46767300DE4AB3 /* LinearGridentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 680488541B46767300DE4AB3 /* LinearGridentView.m */; };
 		6FECE8C41B44E9A4008E3C88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FECE8C31B44E9A4008E3C88 /* main.m */; };
 		6FECE8C71B44E9A4008E3C88 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FECE8C61B44E9A4008E3C88 /* AppDelegate.m */; };
 		6FECE8CA1B44E9A4008E3C88 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FECE8C91B44E9A4008E3C88 /* ViewController.m */; };
@@ -14,6 +16,8 @@
 		6FECE8CF1B44E9A4008E3C88 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FECE8CE1B44E9A4008E3C88 /* Images.xcassets */; };
 		6FECE8D21B44E9A4008E3C88 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FECE8D01B44E9A4008E3C88 /* LaunchScreen.xib */; };
 		6FECE8DE1B44E9A4008E3C88 /* HsProfitRatePieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FECE8DD1B44E9A4008E3C88 /* HsProfitRatePieTests.m */; };
+		6FECE8E91B44EA88008E3C88 /* HsProfitRatePieWidgets.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FECE8E81B44EA88008E3C88 /* HsProfitRatePieWidgets.m */; };
+		6FECE8EA1B44EA88008E3C88 /* HsProfitRatePieWidgets.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FECE8E81B44EA88008E3C88 /* HsProfitRatePieWidgets.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +31,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		680488501B46761200DE4AB3 /* GridentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridentView.h; sourceTree = "<group>"; };
+		680488511B46761200DE4AB3 /* GridentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridentView.m; sourceTree = "<group>"; };
+		680488531B46767300DE4AB3 /* LinearGridentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinearGridentView.h; sourceTree = "<group>"; };
+		680488541B46767300DE4AB3 /* LinearGridentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinearGridentView.m; sourceTree = "<group>"; };
 		6FECE8BE1B44E9A4008E3C88 /* HsProfitRatePie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HsProfitRatePie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FECE8C21B44E9A4008E3C88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6FECE8C31B44E9A4008E3C88 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +48,8 @@
 		6FECE8D71B44E9A4008E3C88 /* HsProfitRatePieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HsProfitRatePieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FECE8DC1B44E9A4008E3C88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6FECE8DD1B44E9A4008E3C88 /* HsProfitRatePieTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HsProfitRatePieTests.m; sourceTree = "<group>"; };
+		6FECE8E71B44EA88008E3C88 /* HsProfitRatePieWidgets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HsProfitRatePieWidgets.h; sourceTree = "<group>"; };
+		6FECE8E81B44EA88008E3C88 /* HsProfitRatePieWidgets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HsProfitRatePieWidgets.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +99,12 @@
 				6FECE8CE1B44E9A4008E3C88 /* Images.xcassets */,
 				6FECE8D01B44E9A4008E3C88 /* LaunchScreen.xib */,
 				6FECE8C11B44E9A4008E3C88 /* Supporting Files */,
+				6FECE8E71B44EA88008E3C88 /* HsProfitRatePieWidgets.h */,
+				6FECE8E81B44EA88008E3C88 /* HsProfitRatePieWidgets.m */,
+				680488501B46761200DE4AB3 /* GridentView.h */,
+				680488511B46761200DE4AB3 /* GridentView.m */,
+				680488531B46767300DE4AB3 /* LinearGridentView.h */,
+				680488541B46767300DE4AB3 /* LinearGridentView.m */,
 			);
 			path = HsProfitRatePie;
 			sourceTree = "<group>";
@@ -219,9 +235,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				680488521B46761200DE4AB3 /* GridentView.m in Sources */,
 				6FECE8CA1B44E9A4008E3C88 /* ViewController.m in Sources */,
 				6FECE8C71B44E9A4008E3C88 /* AppDelegate.m in Sources */,
+				680488551B46767300DE4AB3 /* LinearGridentView.m in Sources */,
 				6FECE8C41B44E9A4008E3C88 /* main.m in Sources */,
+				6FECE8E91B44EA88008E3C88 /* HsProfitRatePieWidgets.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FECE8DE1B44E9A4008E3C88 /* HsProfitRatePieTests.m in Sources */,
+				6FECE8EA1B44EA88008E3C88 /* HsProfitRatePieWidgets.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +368,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HsProfitRatePie/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -358,6 +379,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HsProfitRatePie/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -416,6 +438,7 @@
 				6FECE8E31B44E9A4008E3C88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6FECE8E41B44E9A4008E3C88 /* Build configuration list for PBXNativeTarget "HsProfitRatePieTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +447,7 @@
 				6FECE8E61B44E9A4008E3C88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
